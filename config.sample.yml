@@ -1,0 +1,10 @@
+japaricapture:
+  target:
+    path: 'C:/******/KFP2G/けもフレ３.exe'
+  external:
+    path: 'C:/******/waifu2x-caffe/waifu2x-caffe-cui.exe'
+    model: 'anime_style_art'
+  capture:
+    trigger_key: 57 #space
+    crop_bound: [8, 31, 8, 8]  # left, top, right, bottom
+    output: 'C:/******/kemofure3/capture/'
